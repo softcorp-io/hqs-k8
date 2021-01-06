@@ -43,7 +43,7 @@ data:
                   - "*"
                   routes:
                   - match:
-                      prefix: "/api.UserService/"
+                      prefix: "/"
                     route:
                       cluster: hqs-user-service
           tls_context:
