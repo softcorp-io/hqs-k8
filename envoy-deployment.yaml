@@ -17,7 +17,7 @@ spec:
         image: envoyproxy/envoy-alpine:v1.9.1
         ports:
         - name: https
-          containerPort: 8080
+          containerPort: 443
         volumeMounts:
         - name: config
           mountPath: /etc/envoy
