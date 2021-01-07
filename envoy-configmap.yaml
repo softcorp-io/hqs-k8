@@ -60,7 +60,7 @@ data:
             - endpoint:
                 address:
                   socket_address:
-                    address: 127.0.0.1
+                    address: hqs-user-service.default.svc.cluster.local
                     port_value: 9000
     admin:
       access_log_path: "/dev/stdout"
