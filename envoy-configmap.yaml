@@ -43,7 +43,7 @@ data:
                   - "*"
                   routes:
                   - match:
-                      prefix: "/"
+                      prefix: "/UserService.UserService/"
                     route:
                       cluster: hqs-user-service
           tls_context:
@@ -68,7 +68,7 @@ data:
                 address:
                   socket_address:
                     address: hqs-user-service.default.svc.cluster.local
-                    port_value: 8081
+                    port_value: 9000
     admin:
       access_log_path: "/dev/stdout"
       address:
